@@ -5,8 +5,22 @@
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-recent.svg"></div></flexbox-item>
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-record.svg"></div></flexbox-item>
     </flexbox> -->
-    <group>
-      <cell title='我的爱车' link="/user/car"></cell>
+    <group class="my-group">
+      
+      <cell title='我的爱车' link="/user/car">
+        <img slot="icon"  src="../../assets/icons/car-sport.svg">
+      </cell>
+      <cell title='车辆服务' link="#">
+        <img slot="icon" src="../../assets/icons/car-sport-o.svg">
+      </cell>
+    </group>
+    <group class="my-group">
+      <cell title='车商认证' link="#">
+        <img slot="icon"  src="../../assets/icons/car-dealer.svg">
+      </cell>
+      <cell title='车商信息' link="#">
+        <img slot="icon" src="../../assets/icons/car-dealer-info.svg">
+      </cell>
     </group>
 </div>
 </template>
@@ -31,5 +45,10 @@ export default {
   background-color: #20b907;
   border-radius: 4px;
   background-clip: padding-box;
+}
+
+.my-group img{
+  margin: 3px 10px 0px 10px;
+  height: 30px;
 }
 </style>
