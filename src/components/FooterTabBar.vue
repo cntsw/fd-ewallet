@@ -8,7 +8,7 @@
     <img slot="icon" src="../assets/icons/wallet.svg">
     <span slot="label">钱包</span>
   </tabbar-item>
-  <tabbar-item  link="/borrow">
+  <tabbar-item  link="/loan">
     <img slot="icon" src="../assets/icons/loan.svg">
     <span slot="label">信贷</span>
   </tabbar-item>
