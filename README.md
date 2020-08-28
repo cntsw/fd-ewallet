@@ -26,6 +26,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 参考:
 
 https://github.com/wjjshine/mall-vue.git
+
 https://github.com/xingxiaoyiyio/vue2-vux-fitness-project.git
 
 文档:
