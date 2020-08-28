@@ -5,7 +5,7 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 import Home from './components/HelloFromVux'
-import { AlertPlugin, ToastPlugin, XButton, XInput, Tabbar, TabbarItem, ViewBox, Grid, GridItem, TransferDom, Popup, Group, Toast } from 'vux'
+import { AlertPlugin, ToastPlugin, XHeader, XButton, XInput, Tabbar, TabbarItem, ViewBox, Grid, GridItem, TransferDom, Popup, Group, Cell, Toast } from 'vux'
 
 import router from'./router'
 
@@ -19,8 +19,10 @@ Vue.component('tabbar-item', TabbarItem)
 Vue.component('grid', Grid)
 Vue.component('grid-item', GridItem)
 Vue.component('group', Group)
+Vue.component('cell', Cell)
 Vue.component('popup', Popup)
 Vue.component('toast', Toast)
+Vue.component('x-header', XHeader)
 
 Vue.directive('transfer-dom', TransferDom)
 

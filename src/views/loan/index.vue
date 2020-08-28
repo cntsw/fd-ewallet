@@ -31,7 +31,7 @@
             <br />
             {{ '￥10,000' }}
           </div>
-          <div class="vux-1px-r">
+          <div>
             <span>总额度(元)</span>
             <br />
             {{ '￥10,000' }}
@@ -45,7 +45,7 @@
             <br />
             {{ '￥10,000' }}
           </div>
-          <div class="vux-1px-r">
+          <div>
             <span>总额度(元)</span>
             <br />
             {{ '￥10,000' }}

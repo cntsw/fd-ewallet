@@ -1,10 +1,13 @@
 <template>
-<div>asdf
-    <flexbox>
+<div>
+    <!-- <flexbox>
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-order.svg"></div></flexbox-item>
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-recent.svg"></div></flexbox-item>
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-record.svg"></div></flexbox-item>
-    </flexbox>
+    </flexbox> -->
+    <group>
+      <cell title='我的爱车' link="/user/car"></cell>
+    </group>
 </div>
 </template>
 <script>

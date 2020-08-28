@@ -3,7 +3,7 @@
     <view-box ref="viewBox">
       <router-view key="page" class="router-view"/>
     </view-box>
-    <footer-tab-bar slot="bottom" v-if="showFooter" v-transfer-dom/>
+    <footer-tab-bar slot="bottom" v-show="showFooter"/>
   </div>
 </template>
 
@@ -17,9 +17,12 @@ export default {
   computed: {
     showFooter () {
       const p = this.$route.path
-      return  p !== '/loan/payment' && 
+      const result =  p !== '/loan/payment' && 
               p !== '/loan/payment-detail' &&
-              p !== '/loan/history'
+              p !== '/loan/history' &&
+              p !== '/user/car'
+      // alert(result)
+      return result
     }
   }
 }
@@ -43,12 +46,5 @@ body {
   position: fixed !important;
 }
 
-// .weui-btn {
-  
-// }
-
-// .weui-btn_primary{
-//   background-color: #1e82d2 ;
-// }
 
 </style>
