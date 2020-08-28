@@ -13,7 +13,7 @@
         <img slot="icon" src="../../assets/images/loan-recent.svg" />
         <span slot="label" class="grid-buttons__label">近期待还</span>
       </grid-item>
-      <grid-item class="grid-item-full">
+      <grid-item link="/loan/history" class="grid-item-full">
         <img slot="icon" src="../../assets/images/loan-record.svg" />
         <span slot="label" class="grid-buttons__label">借还记录</span>
       </grid-item>
@@ -53,7 +53,7 @@
         </div>
       </card>
     </div>
-    <x-button type="primary" link="/demo">额度申请</x-button>
+    <x-button type="primary" link="#">额度申请</x-button>
   </div>
 </template>
 

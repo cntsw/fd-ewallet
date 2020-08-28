@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import LoanView from '@/views/loan'
 import LoanPaymentView from '@/views/loan/Payment'
 import LoanPaymentDetailView from '@/views/loan/PaymentDetail'
+import LoanHistoryView from '@/views/loan/History'
 
 import UserView from '@/views/user'
 
@@ -26,6 +27,7 @@ export default new VueRouter({
     },
     { path: '/loan/payment', component: LoanPaymentView},
     { path: '/loan/payment-detail', component: LoanPaymentDetailView},
+    { path: '/loan/history', component: LoanHistoryView},
     {
       path: '/user',
       name: 'user',

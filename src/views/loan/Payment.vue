@@ -11,11 +11,13 @@
       <tab-item disabled @on-item-click="onItemClick">全部账单</tab-item>
     </tab>
     <group>
-        <cell is-link title="9月21日应还" link="/loan/payment-detail">
-        <b>12345.00</b><br>
-        <b>还款当日从招商银行自动扣款</b>
+        <cell title='9月21日应还'
+            link="/loan/payment-detail" 
+            inline-desc='还款当日从招商银行自动扣款'>
+            <b>12345.00</b><br>
         </cell>
     </group>
+
 </div>
 
 
