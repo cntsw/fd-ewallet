@@ -1,5 +1,5 @@
 <template>
-  <tabbar >
+  <tabbar v-transfer-dom>
   <tabbar-item selected link="/car">
     <img slot="icon" src="../assets/icons/car-sport.svg">
     <span slot="label">购车</span>
@@ -39,9 +39,6 @@ export default {
     }
   },
   computed: {
-    ...mapGetters({
-      'cartProductNum': 'cart/cartProductNum'
-    })
   },
   mounted () {
   },

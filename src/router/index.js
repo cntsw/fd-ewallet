@@ -6,7 +6,9 @@ import LoanPaymentView from '@/views/loan/Payment'
 import LoanPaymentDetailView from '@/views/loan/PaymentDetail'
 import LoanHistoryView from '@/views/loan/History'
 
+
 import UserView from '@/views/user'
+import UserCarView from '@/views/user/Car'
 
 Vue.use(VueRouter)
 
@@ -33,5 +35,6 @@ export default new VueRouter({
       name: 'user',
       component: UserView
     },
+    { path: '/user/car', component: UserCarView }
   ]
 })

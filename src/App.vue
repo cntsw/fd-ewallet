@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <router-view />
-    <footer-tab-bar slot="bottom" v-if="showFooter" />
+    <view-box ref="viewBox">
+      <router-view key="page" class="router-view"/>
+    </view-box>
+    <footer-tab-bar slot="bottom" v-if="showFooter" v-transfer-dom/>
   </div>
 </template>
 
@@ -29,4 +31,24 @@ export default {
 body {
   background-color: #fbf9fe;
 }
+
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #263240;
+}
+
+.weui-tabbar {
+  position: fixed !important;
+}
+
+// .weui-btn {
+  
+// }
+
+// .weui-btn_primary{
+//   background-color: #1e82d2 ;
+// }
+
 </style>

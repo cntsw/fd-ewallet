@@ -151,7 +151,6 @@ export default {
 .weui-btn{
   width: 70%;
   margin-top: 15px;
-  background-color: #1e82d2;
 }
 
 .payment{
