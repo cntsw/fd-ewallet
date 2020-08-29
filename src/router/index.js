@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+
+import WalletView from '@/views/wallet'
+
 import LoanView from '@/views/loan'
 import LoanPaymentView from '@/views/loan/Payment'
 import LoanPaymentDetailView from '@/views/loan/PaymentDetail'
 import LoanHistoryView from '@/views/loan/History'
-
 
 import UserView from '@/views/user'
 import UserCarView from '@/views/user/Car'
@@ -20,8 +22,11 @@ export default new VueRouter({
     {
       path: '/car',
       name: 'HelloWorld',
-      component: HelloWorld
+      // component: HelloWorld
     },
+
+    { path: '/wallet', component: WalletView },
+
     {
       path: '/loan',
       name: 'loan',
@@ -30,6 +35,7 @@ export default new VueRouter({
     { path: '/loan/payment', component: LoanPaymentView},
     { path: '/loan/payment-detail', component: LoanPaymentDetailView},
     { path: '/loan/history', component: LoanHistoryView},
+
     {
       path: '/user',
       name: 'user',

@@ -5,8 +5,17 @@
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-recent.svg"></div></flexbox-item>
       <flexbox-item><div class="flex-demo"><img slot="icon" src="../../assets/images/loan-record.svg"></div></flexbox-item>
     </flexbox> -->
+
+    
     <group class="my-group">
-      
+      <cell title='银行卡' link="#">
+        <img slot="icon"  src="../../assets/images/credit-card.svg">
+      </cell>
+      <cell title='信用卡' link="#">
+        <img slot="icon" src="../../assets/images/credit-card.svg">
+      </cell>
+    </group>
+    <group class="my-group">
       <cell title='我的爱车' link="/user/car">
         <img slot="icon"  src="../../assets/icons/car-sport.svg">
       </cell>
